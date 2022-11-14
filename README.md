@@ -64,3 +64,45 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Task Description
+
+# Problem Description : 
+
+- XML FIle Contains the data of Author and Books and it has to be inserted in the database and based on author name there search should be performed.  If a duplicate is found it should be updated instead of inserting. 
+
+
+And Data should be in two tables author and books with (1:N)
+
+After importing the Xml File data should be populated in the Data Table.
+
+
+Solution : It has been implemented the same as told that only a non occurring scenario is if the book name is duplicate and has to be updated, here there are two tables which are used to process the data so that scenario will never come.
+
+# Tech Stack Used: 
+
+Laravel - 9
+Mysql - 8
+HTML
+CSS
+Bootstrap
+Jquery 
+
+# How to Run This Project
+
+After configuring the PHP and Mysql 
+Place this project to htdocs/www
+Create a Database and Update the Credentials in env file
+Go to Project Directory RUN Composer update/ or delete lock file and run Composer Install
+Run PHP artisan migrate
+Clear the Cache
+Serve the project 
+
+
+# Note : Sample Input XML is Attached. 
+- Clone From Main.
+
+Thanks
+Rajesh
+
+
